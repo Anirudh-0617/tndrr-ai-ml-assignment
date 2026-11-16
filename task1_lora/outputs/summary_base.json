@@ -1,0 +1,7 @@
+{
+  "which": "base",
+  "n": 200,
+  "accuracy": 0.125,
+  "valid_json_rate": 0.705,
+  "label_in_set_rate": 0.505
+}

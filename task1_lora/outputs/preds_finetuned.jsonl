@@ -1,0 +1,200 @@
+{"text": "How much more do I have to pay to exchange currencies?", "gold": "exchange_charge", "pred": "exchange_charge", "raw": "{\"intent\": \"exchange_charge\"}", "correct": true}
+{"text": "Can I receive my salary in a currency other than what it is deposited in?", "gold": "receiving_money", "pred": "receiving_money", "raw": "{\"intent\": \"receiving_money\"}", "correct": true}
+{"text": "I need a new passcode.", "gold": "passcode_forgotten", "pred": "passcode_forgotten", "raw": "{\"intent\": \"passcode_forgotten\"}", "correct": true}
+{"text": "My refund is missing from my statement.", "gold": "Refund_not_showing_up", "pred": "Refund_not_showing_up", "raw": "{\"intent\": \"Refund_not_showing_up\"}", "correct": true}
+{"text": "Looks like my card payment was duplicated. I went to pay at the store earlier, got declined once,second time it works. App still stays pending for one of the payments. Can you please remove one of them as it's wrong and clearly was declined?", "gold": "transaction_charged_twice", "pred": "transaction_charged_twice", "raw": "{\"intent\": \"transaction_charged_twice\"}", "correct": true}
+{"text": "Why can't I transfer to a beneficiary?", "gold": "beneficiary_not_allowed", "pred": "beneficiary_not_allowed", "raw": "{\"intent\": \"beneficiary_not_allowed\"}", "correct": true}
+{"text": "What is my card's PIN?", "gold": "get_physical_card", "pred": "get_physical_card", "raw": "{\"intent\": \"get_physical_card\"}", "correct": true}
+{"text": "How do I delete my account?", "gold": "terminate_account", "pred": "terminate_account", "raw": "{\"intent\": \"terminate_account\"}", "correct": true}
+{"text": "Change currency", "gold": "exchange_via_app", "pred": "exchange_via_app", "raw": "{\"intent\": \"exchange_via_app\"}", "correct": true}
+{"text": "I would like to exchange currencies", "gold": "exchange_via_app", "pred": "exchange_via_app", "raw": "{\"intent\": \"exchange_via_app\"}", "correct": true}
+{"text": "How many disposable virtual cards can I have?", "gold": "disposable_card_limits", "pred": "disposable_card_limits", "raw": "{\"intent\": \"disposable_card_limits\"}", "correct": true}
+{"text": "Is it possible to use Apple Pay to put money in my account?", "gold": "apple_pay_or_google_pay", "pred": "apple_pay_or_google_pay", "raw": "{\"intent\": \"apple_pay_or_google_pay\"}", "correct": true}
+{"text": "Why was my card payment declined?", "gold": "declined_card_payment", "pred": "declined_card_payment", "raw": "{\"intent\": \"declined_card_payment\"}", "correct": true}
+{"text": "Is there an amount limit to my top-up?", "gold": "top_up_limits", "pred": "top_up_limits", "raw": "{\"intent\": \"top_up_limits\"}", "correct": true}
+{"text": "I made a transfer and it doesnt' show up in my account.", "gold": "balance_not_updated_after_bank_transfer", "pred": "balance_not_updated_after_bank_transfer", "raw": "{\"intent\": \"balance_not_updated_after_bank_transfer\"}", "correct": true}
+{"text": "What do I need to do to activate my new card?", "gold": "activate_my_card", "pred": "activate_my_card", "raw": "{\"intent\": \"activate_my_card\"}", "correct": true}
+{"text": "what are exchange rates", "gold": "exchange_rate", "pred": "exchange_rate", "raw": "{\"intent\": \"exchange_rate\"}", "correct": true}
+{"text": "Help!  I can't find my card.", "gold": "lost_or_stolen_card", "pred": "lost_or_stolen_card", "raw": "{\"intent\": \"lost_or_stolen_card\"}", "correct": true}
+{"text": "I made a transaction and it is taking a very long time to go through.", "gold": "transfer_not_received_by_recipient", "pred": "pending_card_payment", "raw": "{\"intent\": \"pending_card_payment\"}", "correct": false}
+{"text": "I want to withdraw money, where can I go?", "gold": "atm_support", "pred": "atm_support", "raw": "{\"intent\": \"atm_support\"}", "correct": true}
+{"text": "Am I able to get a card in EU?", "gold": "country_support", "pred": "country_support", "raw": "{\"intent\": \"country_support\"}", "correct": true}
+{"text": "My top up hasn't worked, it's been stuck in pending for the last couple hours", "gold": "pending_top_up", "pred": "pending_top_up", "raw": "{\"intent\": \"pending_top_up\"}", "correct": true}
+{"text": "How do I cancel my card? There are charges on my account that I didn't make.", "gold": "cash_withdrawal_not_recognised", "pred": "card_payment_fee_charged", "raw": "{\"intent\": \"card_payment_fee_charged\"}", "correct": false}
+{"text": "A wrong exchange rate was applied to a transaction made abroad.", "gold": "wrong_exchange_rate_for_cash_withdrawal", "pred": "wrong_exchange_rate_for_cash_withdrawal", "raw": "{\"intent\": \"wrong_exchange_rate_for_cash_withdrawal\"}", "correct": true}
+{"text": "Next month my card will expire, do I need to order a new one?", "gold": "card_about_to_expire", "pred": "card_about_to_expire", "raw": "{\"intent\": \"card_about_to_expire\"}", "correct": true}
+{"text": "can I transfer my salary if it's in a different currency?", "gold": "receiving_money", "pred": "receiving_money", "raw": "{\"intent\": \"receiving_money\"}", "correct": true}
+{"text": "Help me transfer money to my credit card.", "gold": "topping_up_by_card", "pred": "transfer_into_account", "raw": "{\"intent\": \"transfer_into_account\"}", "correct": false}
+{"text": "We need both a visa and a Mastercard.", "gold": "visa_or_mastercard", "pred": "visa_or_mastercard", "raw": "{\"intent\": \"visa_or_mastercard\"}", "correct": true}
+{"text": "And what about the Card's PIN?", "gold": "get_physical_card", "pred": "get_physical_card", "raw": "{\"intent\": \"get_physical_card\"}", "correct": true}
+{"text": "i tried to make a transfer to a beneficiary and it didn't go through", "gold": "beneficiary_not_allowed", "pred": "beneficiary_not_allowed", "raw": "{\"intent\": \"beneficiary_not_allowed\"}", "correct": true}
+{"text": "I need to get some more physical cards.", "gold": "getting_spare_card", "pred": "getting_spare_card", "raw": "{\"intent\": \"getting_spare_card\"}", "correct": true}
+{"text": "WHAT CAN I DO AFTER THE CARD MISSING", "gold": "activate_my_card", "pred": "lost_or_stolen_card", "raw": "{\"intent\": \"lost_or_stolen_card\"}", "correct": false}
+{"text": "The amount of time that transfers usually take from a UK account is what?I just completed a transfer and it is not showing up at all. I'm wondering at this point if everything is actually okay.", "gold": "balance_not_updated_after_bank_transfer", "pred": "balance_not_updated_after_bank_transfer", "raw": "{\"intent\": \"balance_not_updated_after_bank_transfer\"}", "correct": true}
+{"text": "Is GBP a supported currency?", "gold": "receiving_money", "pred": "fiat_currency_support", "raw": "{\"intent\": \"fiat_currency_support\"}", "correct": false}
+{"text": "Why am I unable to take money from my card but the statement says the transaction is still pending?", "gold": "pending_cash_withdrawal", "pred": "pending_card_payment", "raw": "{\"intent\": \"pending_card_payment\"}", "correct": false}
+{"text": "I think my card payment has been stopped", "gold": "reverted_card_payment?", "pred": "reverted_card_payment?", "raw": "{\"intent\": \"reverted_card_payment?\"}", "correct": true}
+{"text": "Where can I find instructions to change my PIN?", "gold": "change_pin", "pred": "change_pin", "raw": "{\"intent\": \"change_pin\"}", "correct": true}
+{"text": "I entered the wrong pin too many times and now I am blocked.  Help me unblock!", "gold": "pin_blocked", "pred": "pin_blocked", "raw": "{\"intent\": \"pin_blocked\"}", "correct": true}
+{"text": "What kind of fiat currency can I used for holding and exchange?", "gold": "fiat_currency_support", "pred": "fiat_currency_support", "raw": "{\"intent\": \"fiat_currency_support\"}", "correct": true}
+{"text": "Why did the ATM machine fail to give me a cash withdrawal?", "gold": "declined_cash_withdrawal", "pred": "declined_cash_withdrawal", "raw": "{\"intent\": \"declined_cash_withdrawal\"}", "correct": true}
+{"text": "What are the charges for US cards with top up.", "gold": "top_up_by_card_charge", "pred": "top_up_by_card_charge", "raw": "{\"intent\": \"top_up_by_card_charge\"}", "correct": true}
+{"text": "The app reverted what I topped up.", "gold": "top_up_reverted", "pred": "top_up_reverted", "raw": "{\"intent\": \"top_up_reverted\"}", "correct": true}
+{"text": "How old do I have to be?", "gold": "age_limit", "pred": "age_limit", "raw": "{\"intent\": \"age_limit\"}", "correct": true}
+{"text": "When considering currency holdings and exchanges, what fiat currencies are supported?", "gold": "fiat_currency_support", "pred": "fiat_currency_support", "raw": "{\"intent\": \"fiat_currency_support\"}", "correct": true}
+{"text": "Can I hold money in other currencies?", "gold": "fiat_currency_support", "pred": "fiat_currency_support", "raw": "{\"intent\": \"fiat_currency_support\"}", "correct": true}
+{"text": "How is the top-up card verified?", "gold": "verify_top_up", "pred": "verify_top_up", "raw": "{\"intent\": \"verify_top_up\"}", "correct": true}
+{"text": "Which cash machines will allow me to change my PIN?", "gold": "change_pin", "pred": "change_pin", "raw": "{\"intent\": \"change_pin\"}", "correct": true}
+{"text": "I am only 17. Can I make an account?", "gold": "age_limit", "pred": "age_limit", "raw": "{\"intent\": \"age_limit\"}", "correct": true}
+{"text": "Would it be possible to get another card?", "gold": "getting_spare_card", "pred": "getting_spare_card", "raw": "{\"intent\": \"getting_spare_card\"}", "correct": true}
+{"text": "May I receive a different card pin", "gold": "change_pin", "pred": "change_pin", "raw": "{\"intent\": \"change_pin\"}", "correct": true}
+{"text": "I need to get an actual card so that I can use it for in person transactions. How would I do this?", "gold": "order_physical_card", "pred": "order_physical_card", "raw": "{\"intent\": \"order_physical_card\"}", "correct": true}
+{"text": "I recently got charged twice from a restaurant that I was at this week and I would like for one of those payments to be removed from my account.", "gold": "transaction_charged_twice", "pred": "transaction_charged_twice", "raw": "{\"intent\": \"transaction_charged_twice\"}", "correct": true}
+{"text": "Can I get a physical card through this app?", "gold": "order_physical_card", "pred": "order_physical_card", "raw": "{\"intent\": \"order_physical_card\"}", "correct": true}
+{"text": "Can you look to make sure the exchange rate is correct", "gold": "wrong_exchange_rate_for_cash_withdrawal", "pred": "exchange_rate", "raw": "{\"intent\": \"exchange_rate\"}", "correct": false}
+{"text": "Where is the closest Mastercard ATM?", "gold": "atm_support", "pred": "atm_support", "raw": "{\"intent\": \"atm_support\"}", "correct": true}
+{"text": "When my card expires what happens to my account?", "gold": "card_about_to_expire", "pred": "card_about_to_expire", "raw": "{\"intent\": \"card_about_to_expire\"}", "correct": true}
+{"text": "Can I add funds to the card directly from my bank account?", "gold": "transfer_into_account", "pred": "transfer_into_account", "raw": "{\"intent\": \"transfer_into_account\"}", "correct": true}
+{"text": "I couldn't make a transfer to a beneficiary!", "gold": "beneficiary_not_allowed", "pred": "beneficiary_not_allowed", "raw": "{\"intent\": \"beneficiary_not_allowed\"}", "correct": true}
+{"text": "I am having problems transferring to a beneficiary.", "gold": "beneficiary_not_allowed", "pred": "beneficiary_not_allowed", "raw": "{\"intent\": \"beneficiary_not_allowed\"}", "correct": true}
+{"text": "Someone needs to make me aware when there are extra charges for payments. I happened to be looking at the app earlier and noticed a charge associated to a payment that was extra that no one made me aware of before at all.", "gold": "card_payment_fee_charged", "pred": "extra_charge_on_statement", "raw": "{\"intent\": \"extra_charge_on_statement\"}", "correct": false}
+{"text": "Will it automatically top-up if there isn't much money left?", "gold": "automatic_top_up", "pred": "automatic_top_up", "raw": "{\"intent\": \"automatic_top_up\"}", "correct": true}
+{"text": "Can I submit a check or cash payment?", "gold": "top_up_by_cash_or_cheque", "pred": "top_up_by_cash_or_cheque", "raw": "{\"intent\": \"top_up_by_cash_or_cheque\"}", "correct": true}
+{"text": "My top up is pending.", "gold": "pending_top_up", "pred": "pending_top_up", "raw": "{\"intent\": \"pending_top_up\"}", "correct": true}
+{"text": "How can I top-up my limit?", "gold": "top_up_limits", "pred": "top_up_limits", "raw": "{\"intent\": \"top_up_limits\"}", "correct": true}
+{"text": "The card got declined twice when I tried to use it to buy something online yesterday.", "gold": "declined_transfer", "pred": "transaction_charged_twice", "raw": "{\"intent\": \"transaction_charged_twice\"}", "correct": false}
+{"text": "Why am I being charged when I withdraw cash?", "gold": "cash_withdrawal_charge", "pred": "cash_withdrawal_charge", "raw": "{\"intent\": \"cash_withdrawal_charge\"}", "correct": true}
+{"text": "For the first time I got a fee on my account. How do I know when you charge these fees?", "gold": "card_payment_fee_charged", "pred": "card_payment_fee_charged", "raw": "{\"intent\": \"card_payment_fee_charged\"}", "correct": true}
+{"text": "$1 extra has been charged on my statement, why is that?", "gold": "extra_charge_on_statement", "pred": "extra_charge_on_statement", "raw": "{\"intent\": \"extra_charge_on_statement\"}", "correct": true}
+{"text": "Is my country supported", "gold": "country_support", "pred": "country_support", "raw": "{\"intent\": \"country_support\"}", "correct": true}
+{"text": "If I need to do a quick transfer from China, how long should I expect the transfer to take?", "gold": "transfer_timing", "pred": "transfer_timing", "raw": "{\"intent\": \"transfer_timing\"}", "correct": true}
+{"text": "How many disposable cards can I make in a single day?", "gold": "disposable_card_limits", "pred": "disposable_card_limits", "raw": "{\"intent\": \"disposable_card_limits\"}", "correct": true}
+{"text": "If I feel someone has my card information, can I get a new card?", "gold": "compromised_card", "pred": "compromised_card", "raw": "{\"intent\": \"compromised_card\"}", "correct": true}
+{"text": "I don't recognize some of the transactions on my card, I think someone must have gotten my card info and used it.", "gold": "compromised_card", "pred": "compromised_card", "raw": "{\"intent\": \"compromised_card\"}", "correct": true}
+{"text": "I would like to know why my transfer was declined.", "gold": "declined_transfer", "pred": "declined_transfer", "raw": "{\"intent\": \"declined_transfer\"}", "correct": true}
+{"text": "What is the tracking number for my card that was mailed?", "gold": "card_arrival", "pred": "card_arrival", "raw": "{\"intent\": \"card_arrival\"}", "correct": true}
+{"text": "I've been unable to pay contactless with my card for over a week now. Is there a way to fix this issue?", "gold": "contactless_not_working", "pred": "contactless_not_working", "raw": "{\"intent\": \"contactless_not_working\"}", "correct": true}
+{"text": "Can you give me a visa?", "gold": "visa_or_mastercard", "pred": "visa_or_mastercard", "raw": "{\"intent\": \"visa_or_mastercard\"}", "correct": true}
+{"text": "How can I tell if there is a top-up limit?", "gold": "top_up_limits", "pred": "top_up_limits", "raw": "{\"intent\": \"top_up_limits\"}", "correct": true}
+{"text": "When adding money, what are the currencies you take?", "gold": "supported_cards_and_currencies", "pred": "supported_cards_and_currencies", "raw": "{\"intent\": \"supported_cards_and_currencies\"}", "correct": true}
+{"text": "how to change name", "gold": "edit_personal_details", "pred": "edit_personal_details", "raw": "{\"intent\": \"edit_personal_details\"}", "correct": true}
+{"text": "I'm really stuck. I don't know why but my card payment has not gone through.", "gold": "declined_card_payment", "pred": "pending_card_payment", "raw": "{\"intent\": \"pending_card_payment\"}", "correct": false}
+{"text": "Where can I find my PIN?", "gold": "get_physical_card", "pred": "get_physical_card", "raw": "{\"intent\": \"get_physical_card\"}", "correct": true}
+{"text": "Where can I find your locations?", "gold": "country_support", "pred": "country_support", "raw": "{\"intent\": \"country_support\"}", "correct": true}
+{"text": "What are the steps in order to activate my new card?", "gold": "activate_my_card", "pred": "activate_my_card", "raw": "{\"intent\": \"activate_my_card\"}", "correct": true}
+{"text": "Is there places where I can't withdraw money?", "gold": "atm_support", "pred": "declined_cash_withdrawal", "raw": "{\"intent\": \"declined_cash_withdrawal\"}", "correct": false}
+{"text": "What is the reason for this fee I got after a simple cash withdrawal?", "gold": "cash_withdrawal_charge", "pred": "cash_withdrawal_charge", "raw": "{\"intent\": \"cash_withdrawal_charge\"}", "correct": true}
+{"text": "What are the top-up fees?", "gold": "top_up_by_card_charge", "pred": "top_up_by_bank_transfer_charge", "raw": "{\"intent\": \"top_up_by_bank_transfer_charge\"}", "correct": false}
+{"text": "I think I want AUD and not GBP, can you help?", "gold": "exchange_via_app", "pred": "exchange_via_app", "raw": "{\"intent\": \"exchange_via_app\"}", "correct": true}
+{"text": "This company is bad, please delete my account.", "gold": "terminate_account", "pred": "terminate_account", "raw": "{\"intent\": \"terminate_account\"}", "correct": true}
+{"text": "What do I have to do to get a Visa credit card?", "gold": "visa_or_mastercard", "pred": "visa_or_mastercard", "raw": "{\"intent\": \"visa_or_mastercard\"}", "correct": true}
+{"text": "I have tried transferring money numerous times.  All I keep getting is an error message.  Can you tell me what is going on and how this van be fixed?", "gold": "beneficiary_not_allowed", "pred": "beneficiary_not_allowed", "raw": "{\"intent\": \"beneficiary_not_allowed\"}", "correct": true}
+{"text": "My card is about to expire. How do I get a new one?", "gold": "card_about_to_expire", "pred": "card_about_to_expire", "raw": "{\"intent\": \"card_about_to_expire\"}", "correct": true}
+{"text": "Where do I verify my identity?", "gold": "verify_my_identity", "pred": "verify_my_identity", "raw": "{\"intent\": \"verify_my_identity\"}", "correct": true}
+{"text": "The ATM at Metro bank on High St. Kensington didn't return my card. What should I do now that the bank is closed?", "gold": "card_swallowed", "pred": "lost_or_stolen_card", "raw": "{\"intent\": \"lost_or_stolen_card\"}", "correct": false}
+{"text": "Where is the card PIN?", "gold": "get_physical_card", "pred": "get_physical_card", "raw": "{\"intent\": \"get_physical_card\"}", "correct": true}
+{"text": "When will my card be activated?", "gold": "activate_my_card", "pred": "activate_my_card", "raw": "{\"intent\": \"activate_my_card\"}", "correct": true}
+{"text": "Even though it's late, I wanted to see about disputing a charge. I was just looking through my transactions over the past couple of months and noticed a pretty large amount that was not completed by me. Is this possibly something I can still do.", "gold": "direct_debit_payment_not_recognised", "pred": "direct_debit_payment_not_recognised", "raw": "{\"intent\": \"direct_debit_payment_not_recognised\"}", "correct": true}
+{"text": "I want to order a card. Where do you deliver to?", "gold": "order_physical_card", "pred": "order_physical_card", "raw": "{\"intent\": \"order_physical_card\"}", "correct": true}
+{"text": "What do I do if I think my card was improperly used?", "gold": "compromised_card", "pred": "compromised_card", "raw": "{\"intent\": \"compromised_card\"}", "correct": true}
+{"text": "I have a strange payment in my statement", "gold": "card_payment_not_recognised", "pred": "direct_debit_payment_not_recognised", "raw": "{\"intent\": \"direct_debit_payment_not_recognised\"}", "correct": false}
+{"text": "Can I receive a new card while I am in China?", "gold": "card_about_to_expire", "pred": "country_support", "raw": "{\"intent\": \"country_support\"}", "correct": false}
+{"text": "How do I pay by check?", "gold": "top_up_by_cash_or_cheque", "pred": "top_up_by_cash_or_cheque", "raw": "{\"intent\": \"top_up_by_cash_or_cheque\"}", "correct": true}
+{"text": "What do i need to verify my id?", "gold": "unable_to_verify_identity", "pred": "verify_my_identity", "raw": "{\"intent\": \"verify_my_identity\"}", "correct": false}
+{"text": "I just finished sending money, but it's not logging on the recipient side.", "gold": "transfer_not_received_by_recipient", "pred": "transfer_not_received_by_recipient", "raw": "{\"intent\": \"transfer_not_received_by_recipient\"}", "correct": true}
+{"text": "How do I interconvert between AUD and GBP?", "gold": "exchange_via_app", "pred": "exchange_via_app", "raw": "{\"intent\": \"exchange_via_app\"}", "correct": true}
+{"text": "how can i top up?", "gold": "topping_up_by_card", "pred": "topping_up_by_card", "raw": "{\"intent\": \"topping_up_by_card\"}", "correct": true}
+{"text": "There is a payment that is not mine.", "gold": "card_payment_not_recognised", "pred": "card_payment_not_recognised", "raw": "{\"intent\": \"card_payment_not_recognised\"}", "correct": true}
+{"text": "How many cards can I have for one account?", "gold": "getting_spare_card", "pred": "getting_spare_card", "raw": "{\"intent\": \"getting_spare_card\"}", "correct": true}
+{"text": "Can I have it be delivered at a certain time?", "gold": "card_delivery_estimate", "pred": "card_delivery_estimate", "raw": "{\"intent\": \"card_delivery_estimate\"}", "correct": true}
+{"text": "How do my friends top up my account", "gold": "topping_up_by_card", "pred": "topping_up_by_card", "raw": "{\"intent\": \"topping_up_by_card\"}", "correct": true}
+{"text": "I received my American Express card, but I am having problems making it work with Apple pay.  Can you help me with this problem?", "gold": "apple_pay_or_google_pay", "pred": "apple_pay_or_google_pay", "raw": "{\"intent\": \"apple_pay_or_google_pay\"}", "correct": true}
+{"text": "My top up was denied in the app.", "gold": "top_up_failed", "pred": "top_up_failed", "raw": "{\"intent\": \"top_up_failed\"}", "correct": true}
+{"text": "Please terminate my account.", "gold": "terminate_account", "pred": "terminate_account", "raw": "{\"intent\": \"terminate_account\"}", "correct": true}
+{"text": "My phone is not with me at the moment so I will not be able to access the app.", "gold": "lost_or_stolen_phone", "pred": "lost_or_stolen_phone", "raw": "{\"intent\": \"lost_or_stolen_phone\"}", "correct": true}
+{"text": "I won't verify my identity.", "gold": "why_verify_identity", "pred": "why_verify_identity", "raw": "{\"intent\": \"why_verify_identity\"}", "correct": true}
+{"text": "How can the recipient see my money transaction?", "gold": "transfer_not_received_by_recipient", "pred": "transfer_not_received_by_recipient", "raw": "{\"intent\": \"transfer_not_received_by_recipient\"}", "correct": true}
+{"text": "The top-up is pending.", "gold": "pending_top_up", "pred": "pending_top_up", "raw": "{\"intent\": \"pending_top_up\"}", "correct": true}
+{"text": "Where are cards delivered to?", "gold": "order_physical_card", "pred": "order_physical_card", "raw": "{\"intent\": \"order_physical_card\"}", "correct": true}
+{"text": "Please close my account. I am unsatisfied with your service.", "gold": "terminate_account", "pred": "terminate_account", "raw": "{\"intent\": \"terminate_account\"}", "correct": true}
+{"text": "Can you explain where I can find the auto-top option?", "gold": "automatic_top_up", "pred": "automatic_top_up", "raw": "{\"intent\": \"automatic_top_up\"}", "correct": true}
+{"text": "I believe someone is using my card without my agreement!", "gold": "compromised_card", "pred": "compromised_card", "raw": "{\"intent\": \"compromised_card\"}", "correct": true}
+{"text": "I can't find my password", "gold": "passcode_forgotten", "pred": "passcode_forgotten", "raw": "{\"intent\": \"passcode_forgotten\"}", "correct": true}
+{"text": "I didn't take out money from an ATM but my app statement shows that I did. How can I fix this?", "gold": "cash_withdrawal_not_recognised", "pred": "cash_withdrawal_not_recognised", "raw": "{\"intent\": \"cash_withdrawal_not_recognised\"}", "correct": true}
+{"text": "Can I set up an automatic top-up for travel.", "gold": "automatic_top_up", "pred": "automatic_top_up", "raw": "{\"intent\": \"automatic_top_up\"}", "correct": true}
+{"text": "How long does it take for a refund?", "gold": "Refund_not_showing_up", "pred": "Refund_not_showing_up", "raw": "{\"intent\": \"Refund_not_showing_up\"}", "correct": true}
+{"text": "About this card PIN?", "gold": "get_physical_card", "pred": "get_physical_card", "raw": "{\"intent\": \"get_physical_card\"}", "correct": true}
+{"text": "I would like to reactivate my card.", "gold": "card_linking", "pred": "activate_my_card", "raw": "{\"intent\": \"activate_my_card\"}", "correct": false}
+{"text": "What is the auto top up function and where can I find that at?", "gold": "automatic_top_up", "pred": "automatic_top_up", "raw": "{\"intent\": \"automatic_top_up\"}", "correct": true}
+{"text": "Why has my card payment been declined?", "gold": "declined_card_payment", "pred": "declined_card_payment", "raw": "{\"intent\": \"declined_card_payment\"}", "correct": true}
+{"text": "Is there a location near me that i can change my PIN?", "gold": "change_pin", "pred": "change_pin", "raw": "{\"intent\": \"change_pin\"}", "correct": true}
+{"text": "What do I need to verify my identity", "gold": "verify_my_identity", "pred": "verify_my_identity", "raw": "{\"intent\": \"verify_my_identity\"}", "correct": true}
+{"text": "Can I get a copy of the card by email?", "gold": "getting_virtual_card", "pred": "order_physical_card", "raw": "{\"intent\": \"order_physical_card\"}", "correct": false}
+{"text": "Can you remove my account please?", "gold": "terminate_account", "pred": "terminate_account", "raw": "{\"intent\": \"terminate_account\"}", "correct": true}
+{"text": "My passcode doesn't seem to be working", "gold": "passcode_forgotten", "pred": "passcode_forgotten", "raw": "{\"intent\": \"passcode_forgotten\"}", "correct": true}
+{"text": "When will my card payment be done pending?", "gold": "pending_card_payment", "pred": "pending_card_payment", "raw": "{\"intent\": \"pending_card_payment\"}", "correct": true}
+{"text": "My statement doesn't show that a refund has processed", "gold": "Refund_not_showing_up", "pred": "Refund_not_showing_up", "raw": "{\"intent\": \"Refund_not_showing_up\"}", "correct": true}
+{"text": "My phone was stolen yesterday.  What should I do?", "gold": "lost_or_stolen_phone", "pred": "lost_or_stolen_phone", "raw": "{\"intent\": \"lost_or_stolen_phone\"}", "correct": true}
+{"text": "Somebody used my card to make a purchase", "gold": "card_payment_not_recognised", "pred": "card_payment_not_recognised", "raw": "{\"intent\": \"card_payment_not_recognised\"}", "correct": true}
+{"text": "My pin was blocked, how do I make it so I can use it?", "gold": "pin_blocked", "pred": "pin_blocked", "raw": "{\"intent\": \"pin_blocked\"}", "correct": true}
+{"text": "I'm in Spain and my stuff has been stolen. My card was with it and I need a new one shipped and the old one frozen.", "gold": "lost_or_stolen_card", "pred": "lost_or_stolen_card", "raw": "{\"intent\": \"lost_or_stolen_card\"}", "correct": true}
+{"text": "I'm trying to transfer money to another country. It's just pending and not sending. My account details are correct. Please help me.", "gold": "pending_transfer", "pred": "pending_transfer", "raw": "{\"intent\": \"pending_transfer\"}", "correct": true}
+{"text": "places i can use the card", "gold": "card_acceptance", "pred": "supported_cards_and_currencies", "raw": "{\"intent\": \"supported_cards_and_currencies\"}", "correct": false}
+{"text": "I tried to transfer money but it said it wasn't possible? I've done this before and it worked why isn't it working now?", "gold": "beneficiary_not_allowed", "pred": "beneficiary_not_allowed", "raw": "{\"intent\": \"beneficiary_not_allowed\"}", "correct": true}
+{"text": "what is the process for setting up a pin", "gold": "get_physical_card", "pred": "get_physical_card", "raw": "{\"intent\": \"get_physical_card\"}", "correct": true}
+{"text": "how do I link a card I already have?", "gold": "card_linking", "pred": "card_linking", "raw": "{\"intent\": \"card_linking\"}", "correct": true}
+{"text": "My card was declined today when eating and I need to know what's wrong.", "gold": "card_not_working", "pred": "declined_card_payment", "raw": "{\"intent\": \"declined_card_payment\"}", "correct": false}
+{"text": "What is needed to prove my identity?", "gold": "verify_my_identity", "pred": "verify_my_identity", "raw": "{\"intent\": \"verify_my_identity\"}", "correct": true}
+{"text": "Do you guys accept mastercard or visa?", "gold": "visa_or_mastercard", "pred": "supported_cards_and_currencies", "raw": "{\"intent\": \"supported_cards_and_currencies\"}", "correct": false}
+{"text": "cash from this morning has not deposited", "gold": "balance_not_updated_after_cheque_or_cash_deposit", "pred": "balance_not_updated_after_cheque_or_cash_deposit", "raw": "{\"intent\": \"balance_not_updated_after_cheque_or_cash_deposit\"}", "correct": true}
+{"text": "I know that I am able to make transfers for free.  That was something that I valued.  After I bought something online from abroad I noticed that I got charged a fee?  What is this and can it be removed?", "gold": "transfer_fee_charged", "pred": "transfer_fee_charged", "raw": "{\"intent\": \"transfer_fee_charged\"}", "correct": true}
+{"text": "What are the charges for receiving money?", "gold": "top_up_by_bank_transfer_charge", "pred": "top_up_by_bank_transfer_charge", "raw": "{\"intent\": \"top_up_by_bank_transfer_charge\"}", "correct": true}
+{"text": "How do I reset my PIN?", "gold": "pin_blocked", "pred": "change_pin", "raw": "{\"intent\": \"change_pin\"}", "correct": false}
+{"text": "What is the limit to number of transactions I can do with a disposable card?", "gold": "disposable_card_limits", "pred": "disposable_card_limits", "raw": "{\"intent\": \"disposable_card_limits\"}", "correct": true}
+{"text": "How can I withdraw money?", "gold": "atm_support", "pred": "top_up_by_cash_or_cheque", "raw": "{\"intent\": \"top_up_by_cash_or_cheque\"}", "correct": false}
+{"text": "Does it cost money for currency exchange services?", "gold": "exchange_charge", "pred": "exchange_charge", "raw": "{\"intent\": \"exchange_charge\"}", "correct": true}
+{"text": "I'm unsure of a withdrawl in my statement.", "gold": "cash_withdrawal_not_recognised", "pred": "cash_withdrawal_not_recognised", "raw": "{\"intent\": \"cash_withdrawal_not_recognised\"}", "correct": true}
+{"text": "How long should my new card take to arrive?", "gold": "card_arrival", "pred": "card_delivery_estimate", "raw": "{\"intent\": \"card_delivery_estimate\"}", "correct": false}
+{"text": "I've now been trying to do a really standard transfer 5 times already. What's going on, is your system broken or something?!", "gold": "failed_transfer", "pred": "failed_transfer", "raw": "{\"intent\": \"failed_transfer\"}", "correct": true}
+{"text": "Why does it say pending cash withdrawal on my statement?", "gold": "pending_cash_withdrawal", "pred": "pending_cash_withdrawal", "raw": "{\"intent\": \"pending_cash_withdrawal\"}", "correct": true}
+{"text": "What are disposable cards?", "gold": "get_disposable_virtual_card", "pred": "get_disposable_virtual_card", "raw": "{\"intent\": \"get_disposable_virtual_card\"}", "correct": true}
+{"text": "I tried to get $100 but I just got $20", "gold": "wrong_amount_of_cash_received", "pred": "wrong_amount_of_cash_received", "raw": "{\"intent\": \"wrong_amount_of_cash_received\"}", "correct": true}
+{"text": "Can I use my account without verifying my identity?", "gold": "why_verify_identity", "pred": "why_verify_identity", "raw": "{\"intent\": \"why_verify_identity\"}", "correct": true}
+{"text": "Can I use Apple Pay to top up?", "gold": "apple_pay_or_google_pay", "pred": "apple_pay_or_google_pay", "raw": "{\"intent\": \"apple_pay_or_google_pay\"}", "correct": true}
+{"text": "Is Apple Pay a possible top up option?", "gold": "apple_pay_or_google_pay", "pred": "apple_pay_or_google_pay", "raw": "{\"intent\": \"apple_pay_or_google_pay\"}", "correct": true}
+{"text": "I need information about an extra \u20ac1 fee in my statement.", "gold": "extra_charge_on_statement", "pred": "extra_charge_on_statement", "raw": "{\"intent\": \"extra_charge_on_statement\"}", "correct": true}
+{"text": "Why was I charged multiple times for the same thing?", "gold": "transaction_charged_twice", "pred": "transaction_charged_twice", "raw": "{\"intent\": \"transaction_charged_twice\"}", "correct": true}
+{"text": "Why is there a direct debit payment on my app that is not from me?", "gold": "direct_debit_payment_not_recognised", "pred": "direct_debit_payment_not_recognised", "raw": "{\"intent\": \"direct_debit_payment_not_recognised\"}", "correct": true}
+{"text": "Where can I find the top-up verification code?", "gold": "verify_top_up", "pred": "verify_top_up", "raw": "{\"intent\": \"verify_top_up\"}", "correct": true}
+{"text": "How much is a cross currency exchange, and can I check to see if I have any discounts available?", "gold": "exchange_charge", "pred": "exchange_charge", "raw": "{\"intent\": \"exchange_charge\"}", "correct": true}
+{"text": "How do I top-up using cash?", "gold": "top_up_by_cash_or_cheque", "pred": "top_up_by_cash_or_cheque", "raw": "{\"intent\": \"top_up_by_cash_or_cheque\"}", "correct": true}
+{"text": "I  do not see a top-up processed.", "gold": "pending_top_up", "pred": "pending_top_up", "raw": "{\"intent\": \"pending_top_up\"}", "correct": true}
+{"text": "Please stop my purchase.", "gold": "request_refund", "pred": "request_refund", "raw": "{\"intent\": \"request_refund\"}", "correct": true}
+{"text": "I got my new card but I am not sure if it need s activated and how?", "gold": "activate_my_card", "pred": "activate_my_card", "raw": "{\"intent\": \"activate_my_card\"}", "correct": true}
+{"text": "what is source of my funds, need to verify", "gold": "verify_source_of_funds", "pred": "verify_source_of_funds", "raw": "{\"intent\": \"verify_source_of_funds\"}", "correct": true}
+{"text": "My app shows some cash I didn't get.", "gold": "cash_withdrawal_not_recognised", "pred": "cash_withdrawal_not_recognised", "raw": "{\"intent\": \"cash_withdrawal_not_recognised\"}", "correct": true}
+{"text": "What is the base of the exchange rates?", "gold": "exchange_rate", "pred": "exchange_rate", "raw": "{\"intent\": \"exchange_rate\"}", "correct": true}
+{"text": "What's the refund process?", "gold": "request_refund", "pred": "request_refund", "raw": "{\"intent\": \"request_refund\"}", "correct": true}
+{"text": "The ATM gave me the wrong amount of cash today when I went to withdraw. The app says it was more.", "gold": "wrong_amount_of_cash_received", "pred": "wrong_amount_of_cash_received", "raw": "{\"intent\": \"wrong_amount_of_cash_received\"}", "correct": true}
+{"text": "Where can I get my card at?", "gold": "order_physical_card", "pred": "atm_support", "raw": "{\"intent\": \"atm_support\"}", "correct": false}
+{"text": "When will a transfer reach my account?", "gold": "transfer_timing", "pred": "transfer_timing", "raw": "{\"intent\": \"transfer_timing\"}", "correct": true}
+{"text": "Are there any specific ATMs that this card can be used at?", "gold": "atm_support", "pred": "atm_support", "raw": "{\"intent\": \"atm_support\"}", "correct": true}
+{"text": "How do I apply for a refund?", "gold": "request_refund", "pred": "request_refund", "raw": "{\"intent\": \"request_refund\"}", "correct": true}
+{"text": "can you tell me why my transfer failed?", "gold": "failed_transfer", "pred": "failed_transfer", "raw": "{\"intent\": \"failed_transfer\"}", "correct": true}
+{"text": "Are both Visa and Mastercard offered?", "gold": "visa_or_mastercard", "pred": "visa_or_mastercard", "raw": "{\"intent\": \"visa_or_mastercard\"}", "correct": true}
+{"text": "How old does one have to be to have an account with the bank?", "gold": "age_limit", "pred": "age_limit", "raw": "{\"intent\": \"age_limit\"}", "correct": true}
+{"text": "I am not satisfied with your company and would like to delete my accounts!", "gold": "terminate_account", "pred": "terminate_account", "raw": "{\"intent\": \"terminate_account\"}", "correct": true}
+{"text": "I already have one of your cards, how do I link them?", "gold": "card_linking", "pred": "card_linking", "raw": "{\"intent\": \"card_linking\"}", "correct": true}
+{"text": "Is their a fee for top ups?", "gold": "top_up_by_card_charge", "pred": "top_up_by_card_charge", "raw": "{\"intent\": \"top_up_by_card_charge\"}", "correct": true}
+{"text": "Hi, As suggested by you, i have asked the seller to initiate the refund, it has been a week and i haven't received my money. Please advise.", "gold": "Refund_not_showing_up", "pred": "Refund_not_showing_up", "raw": "{\"intent\": \"Refund_not_showing_up\"}", "correct": true}
+{"text": "What is the fee charged with this card payment?", "gold": "card_payment_fee_charged", "pred": "card_payment_fee_charged", "raw": "{\"intent\": \"card_payment_fee_charged\"}", "correct": true}
+{"text": "Where do I change my PIN?", "gold": "change_pin", "pred": "change_pin", "raw": "{\"intent\": \"change_pin\"}", "correct": true}
+{"text": "I live in the US, how long will it take for delivery?", "gold": "card_delivery_estimate", "pred": "card_delivery_estimate", "raw": "{\"intent\": \"card_delivery_estimate\"}", "correct": true}
+{"text": "Why could my transfer have been declined?", "gold": "declined_transfer", "pred": "declined_transfer", "raw": "{\"intent\": \"declined_transfer\"}", "correct": true}
+{"text": "Fix your system. I can't make transfers, I've tried like 5 times already.", "gold": "failed_transfer", "pred": "beneficiary_not_allowed", "raw": "{\"intent\": \"beneficiary_not_allowed\"}", "correct": false}
+{"text": "Can you tell me why you won't let me get my own money out of the money machine? I know I used the right PIN.", "gold": "declined_cash_withdrawal", "pred": "declined_cash_withdrawal", "raw": "{\"intent\": \"declined_cash_withdrawal\"}", "correct": true}
+{"text": "Hey, I need some help figuring out way my transfer is not complete yet. My Landlord hasn't got the money yet.She should have received it by now.", "gold": "transfer_not_received_by_recipient", "pred": "transfer_not_received_by_recipient", "raw": "{\"intent\": \"transfer_not_received_by_recipient\"}", "correct": true}
+{"text": "How do I obtain a disposable virtual card?", "gold": "get_disposable_virtual_card", "pred": "get_disposable_virtual_card", "raw": "{\"intent\": \"get_disposable_virtual_card\"}", "correct": true}
+{"text": "If i'm not in the UK, can I still get a card?", "gold": "country_support", "pred": "country_support", "raw": "{\"intent\": \"country_support\"}", "correct": true}
+{"text": "Is it normal to have to wait over a week for my new card?", "gold": "card_arrival", "pred": "card_arrival", "raw": "{\"intent\": \"card_arrival\"}", "correct": true}
+{"text": "I have been charged a fee for paying with card", "gold": "card_payment_fee_charged", "pred": "card_payment_fee_charged", "raw": "{\"intent\": \"card_payment_fee_charged\"}", "correct": true}

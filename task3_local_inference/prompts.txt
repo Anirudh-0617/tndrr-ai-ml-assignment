@@ -1,0 +1,13 @@
+# One prompt per line. Lines starting with # are ignored.
+# Mix of task types so quantisation damage shows up where it usually does
+# (arithmetic, exact facts, strict formats). Swap in your own if you like.
+What is 17 multiplied by 23? Show your steps.
+A train leaves at 9:40 AM and the trip takes 2 hours 35 minutes. When does it arrive?
+Write a Python function that checks whether a string is a palindrome, ignoring spaces and case.
+Explain what a hash table is to a first-year student in under 100 words.
+Return only valid JSON with keys name, city, age for: Ravi is 21 and lives in Pune.
+Translate into Hindi: Where is the nearest railway station?
+List the planets of the solar system in order from the Sun.
+Summarise in two sentences: Photosynthesis lets plants turn light, water and carbon dioxide into glucose and oxygen. It happens mainly in the leaves, inside chloroplasts.
+If all bloops are razzies and all razzies are lazzies, are all bloops lazzies? Answer yes or no and explain.
+Write a four-line poem about rain in Hyderabad.

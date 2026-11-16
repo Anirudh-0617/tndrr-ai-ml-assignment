@@ -1,0 +1,81 @@
+{
+  "model": "qwen2.5:1.5b-instruct-fp16",
+  "memory": {
+    "size_gb": 3.28,
+    "size_vram_gb": 3.28
+  },
+  "median_gen_tokens_per_sec": 63.599999999999994,
+  "median_prompt_tokens_per_sec": 1955.55,
+  "rows": [
+    {
+      "prompt": "What is 17 multiplied by 23? Show your steps.",
+      "output": "To calculate 17 multiplied by 23, you can use the standard multiplication method:\n\n1. Multiply 17 by 3 (the ones digit of 23):\n   17 \u00d7 3 = 51\n\n2. Multiply 17 by 20 (the tens digit of 23, which is 20):\n   17 \u00d7 20 = 340\n\n3. Add the results from steps 1 and 2:\n   51 + 340 = 391\n\nSo, 17 multiplied by 23 equals 391.",
+      "output_tokens": 133,
+      "gen_tokens_per_sec": 63.9,
+      "prompt_tokens_per_sec": 1590.5
+    },
+    {
+      "prompt": "A train leaves at 9:40 AM and the trip takes 2 hours 35 minutes. When does it arrive?",
+      "output": "To determine when the train arrives, we need to add the duration of the trip to the departure time. The trip takes 2 hours 35 minutes, and the train leaves at 9:40 AM.\n\nFirst, let's break down the 2 hours 35 minutes into hours and minutes:\n- 2 hours is 120 minutes.\n- Adding the 35 minutes to 120 minutes gives us 155 minutes.\n\nNow, we add 155 minutes to the departure time of 9:40 AM.\n\n1. Start with 9:40 AM.\n2. Add 15 minutes to 9:40 AM to get 10:55 AM.\n3. Add the remaining 140 minutes to 10:55 AM. Since 140 minutes is 2 hours and 20 minutes, we add 2 hours to 10:55 AM, which gives us 12:55 PM.\n\nTherefore, the train arrives at 12:55 PM.",
+      "output_tokens": 226,
+      "gen_tokens_per_sec": 62.5,
+      "prompt_tokens_per_sec": 2265.9
+    },
+    {
+      "prompt": "Write a Python function that checks whether a string is a palindrome, ignoring spaces and case.",
+      "output": "Certainly! A palindrome is a word, phrase, number, or other sequences of characters that reads the same backward as forward, ignoring spaces and case. Here's a Python function that checks if a given string is a palindrome, ignoring spaces and case:\n\n```python\ndef is_palindrome(s):\n    \"\"\"\n    Check if the given string is a palindrome, ignoring spaces and case.\n    \n    Args:\n    s (str): The string to check.\n    \n    Returns:\n    bool: True if the string is a palindrome, False otherwise.\n    \"\"\"\n    # Remove spaces and convert to lowercase\n    cleaned_string = ''.join(c.lower() for c in s if c.isalnum())\n    \n    # Check if the cleaned string is equal to its reverse\n    return cleaned_string == cleaned_string[::-1]\n\n# Example usage:\ntest_string = \"A man, a plan, a canal: Panama\"\nprint(is_palindrome(test_string))  # Output: True\n\ntest_string = \"race a car\"\nprint(is_palindrome(test_string))  # Output: False\n```\n\n### Explanation:\n1. **Cleaning the String**: The function first removes all spaces from the string and converts all characters to lowercase to ensure the comparison is case-insensitive.\n2. **Checking for Palindrome**: It then checks if the cleaned string is equal to its reverse. If they are the same, the string is a palindrome.\n\n### Example:\n- For the string `\"A man, a plan, a canal:",
+      "output_tokens": 300,
+      "gen_tokens_per_sec": 63.3,
+      "prompt_tokens_per_sec": 1849.9
+    },
+    {
+      "prompt": "Explain what a hash table is to a first-year student in under 100 words.",
+      "output": "A hash table is a data structure that uses a hash function to map keys to array indices, allowing for efficient insertion, deletion, and search operations. It is designed to provide average-case constant time complexity for these operations, making it useful for applications requiring fast data retrieval.",
+      "output_tokens": 55,
+      "gen_tokens_per_sec": 64.4,
+      "prompt_tokens_per_sec": 2061.2
+    },
+    {
+      "prompt": "Return only valid JSON with keys name, city, age for: Ravi is 21 and lives in Pune.",
+      "output": "```json\n{\n  \"name\": \"Ravi\",\n  \"city\": \"Pune\",\n  \"age\": 21\n}\n```",
+      "output_tokens": 31,
+      "gen_tokens_per_sec": 65.3,
+      "prompt_tokens_per_sec": 2181.2
+    },
+    {
+      "prompt": "Translate into Hindi: Where is the nearest railway station?",
+      "output": "\u0915\u094c\u0928 \u0938\u0940 \u0938\u092c\u0938\u0947 \u0928\u093f\u0915\u091f\u0940 \u0930\u0947\u0932\u0935\u0947 \u0938\u094d\u091f\u0947\u0936\u0928 \u0939\u0948?",
+      "output_tokens": 33,
+      "gen_tokens_per_sec": 57.2,
+      "prompt_tokens_per_sec": 11.4
+    },
+    {
+      "prompt": "List the planets of the solar system in order from the Sun.",
+      "output": "The planets of the solar system, listed in order from the Sun, are:\n\n1. Mercury\n2. Venus\n3. Earth\n4. Mars\n5. Jupiter\n6. Saturn\n7. Uranus\n8. Neptune",
+      "output_tokens": 49,
+      "gen_tokens_per_sec": 64.2,
+      "prompt_tokens_per_sec": 1776.6
+    },
+    {
+      "prompt": "Summarise in two sentences: Photosynthesis lets plants turn light, water and carbon dioxide into glucose and oxygen. It happens mainly in the leaves, inside chloroplasts.",
+      "output": "Photosynthesis is the process by which plants convert light energy, water, and carbon dioxide into glucose and oxygen. This occurs primarily in the leaves, within specialized organelles called chloroplasts.",
+      "output_tokens": 40,
+      "gen_tokens_per_sec": 64.7,
+      "prompt_tokens_per_sec": 2551.1
+    },
+    {
+      "prompt": "If all bloops are razzies and all razzies are lazzies, are all bloops lazzies? Answer yes or no and explain.",
+      "output": "Yes, all bloops are lazzies.\n\nExplanation:\nThe statement \"If all bloops are razzies and all razzies are lazzies\" implies a logical relationship between the categories of bloops and razzies, and razzies and lazzies. This relationship can be expressed as a chain of implications:\n\n1. All bloops are razzies (B \u2286 R)\n2. All razzies are lazzies (R \u2286 L)\n\nFrom these two statements, we can deduce that:\n- Since all bloops are razzies (B \u2286 R), and all razzies are lazzies (R \u2286 L), it follows that all bloops must be lazzies (B \u2286 L).\n\nTherefore, the answer is yes, all bloops are lazzies.",
+      "output_tokens": 173,
+      "gen_tokens_per_sec": 63.0,
+      "prompt_tokens_per_sec": 2470.8
+    },
+    {
+      "prompt": "Write a four-line poem about rain in Hyderabad.",
+      "output": "Raindrops fall from the sky so fine,\nHyderabad's streets are wet and clean.\nThe city breathes in the misty air,\nNature's symphony, a soothing prayer.",
+      "output_tokens": 38,
+      "gen_tokens_per_sec": 57.0,
+      "prompt_tokens_per_sec": 11.5
+    }
+  ]
+}

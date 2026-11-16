@@ -1,0 +1,38 @@
+{
+  "150": {
+    "num_chunks": 330,
+    "dense": {
+      "recall@1": 0.4,
+      "recall@5": 0.8,
+      "mrr": 0.572
+    },
+    "bm25": {
+      "recall@1": 0.333,
+      "recall@5": 0.8,
+      "mrr": 0.567
+    },
+    "hybrid": {
+      "recall@1": 0.467,
+      "recall@5": 0.933,
+      "mrr": 0.643
+    }
+  },
+  "500": {
+    "num_chunks": 99,
+    "dense": {
+      "recall@1": 0.467,
+      "recall@5": 0.733,
+      "mrr": 0.549
+    },
+    "bm25": {
+      "recall@1": 0.6,
+      "recall@5": 0.8,
+      "mrr": 0.683
+    },
+    "hybrid": {
+      "recall@1": 0.6,
+      "recall@5": 0.867,
+      "mrr": 0.686
+    }
+  }
+}
